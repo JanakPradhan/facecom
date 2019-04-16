@@ -66,6 +66,12 @@ img {
   padding-top: 12px;
   vertical-align: middle;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: #d45517;
+  box-shadow: none;
 }
 
 .btn-1 img {
@@ -1235,7 +1241,7 @@ img {
   display: block;
 }
 
-.standard__plan .standard__plan__box .plan .plan-wrapper > span {
+.standard__plan .standard__plan__box .plan .plan-wrapper>span {
   color: #038f3c;
   font-size: 16px;
   position: absolute;
@@ -1257,7 +1263,7 @@ img {
     margin-bottom: 15px;
   }
 
-  .standard__plan .standard__plan__box .plan .plan-wrapper > span {
+  .standard__plan .standard__plan__box .plan .plan-wrapper>span {
     font-size: 14px;
   }
 }
@@ -1278,7 +1284,7 @@ img {
     content: "";
   }
 
-  .standard__plan .standard__plan__box .plan .plan-wrapper > span {
+  .standard__plan .standard__plan__box .plan .plan-wrapper>span {
     display: none;
   }
 }
@@ -1300,7 +1306,7 @@ img {
     left: 50%;
   }
 
-  .standard__plan .standard__plan__box .plan .plan-wrapper > span {
+  .standard__plan .standard__plan__box .plan .plan-wrapper>span {
     display: block;
     left: 60%;
     bottom: 100%;
@@ -1485,11 +1491,7 @@ textarea {
     float: none;
   }
 
-  .consulation__form
-    .consulation__form__box
-    .form__wrapper
-    div:first-child
-    span {
+  .consulation__form .consulation__form__box .form__wrapper div:first-child span {
     position: absolute;
     background-color: #d2272d;
     color: #fff;
