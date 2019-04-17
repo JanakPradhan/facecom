@@ -195,7 +195,7 @@ img {
 }
 
 .header .header__right .navigation-bar.is-opened {
-  max-height: 800px;
+  max-height: 1000px;
 }
 
 .header .header__right .navigation-bar li {
@@ -212,6 +212,10 @@ img {
   font-size: 16px;
 }
 
+.header .header__right .navigation-bar li img {
+  float: right;
+}
+
 .header .header__right .navigation .hamburger-menu div {
   background-color: #000;
   height: 5px;
@@ -222,6 +226,7 @@ img {
 .header .header__right .navigation {
   display: none;
 }
+
 
 @media (max-width: 768px) {
   .container {
@@ -1548,6 +1553,7 @@ footer {
     position: fixed;
     bottom: 170px;
     right: 25px;
+    display: none;
   }
 }
 
