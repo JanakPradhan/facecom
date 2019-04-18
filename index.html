@@ -26,8 +26,9 @@
           <div class="fullscreen">
             <a class="header__info">ご相談<span>無料</span></a>
             <div class="header__contact">
-              <a class="header__contact__phone">電話受付 10:00～18:00(月～金)<span>03-6635-0666</span></a>
-              <p>お気軽にご相談下さい！</p>
+              <a class="header__contact__phone">電話受付 10:00～18:00(月～金)<span>03-6635-0666</span>
+                <p>お気軽にご相談下さい！</p>
+              </a>
             </div>
 
             <a class="header__buttons btn-1">
@@ -37,11 +38,7 @@
           </div>
 
           <div class="navigation">
-            <div class="hamburger-menu" id="js-menu">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
+            <div class="hamburger-menu" id="js-menu"></div>
 
             <nav class="navigation-bar" id="js-navBar">
               <ul>
@@ -706,6 +703,12 @@
         }, 1000) //Animation Time//
       })
     });
+
+    $(document).ready(function(){
+      $('.navigation').click(function(){
+        $('.navigation').toggleClass('active');
+      })
+    })
   </script>
 </body>
 
